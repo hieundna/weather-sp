@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .state-icon {
+        align-self: center;
+    }
+
+    .main-title {
+        margin-left: 30px;
+        margin-right: 30px;
+
+        .state {
+            font-size: 40px;
+        }
+    }
+
+    .detail {
+        font-size: 25px;
+        margin-top: 15px;
+        align-self: flex-end;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+}
