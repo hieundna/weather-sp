@@ -57,3 +57,30 @@
         color: black;
     }
 }
+
+@media screen and (max-height: 694px) {
+    .weather-detail {
+        .col-detail {
+            div {
+                margin: 2px 0;
+            }
+
+            .detail-value {
+                padding: 5px;
+                font-size: 17px;
+                width: 22px;
+                height: 22px;
+            }
+
+            .circle-icon {
+                width: 33px;
+                height: 33px;
+                margin-top: 8px;
+            }
+
+            .add-text {
+                font-size: 17px;
+            }
+        }
+    }
+}

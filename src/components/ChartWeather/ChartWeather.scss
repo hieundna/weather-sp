@@ -1,31 +1,41 @@
 .weather-chart {
     background-color: #fff;
-    height: 35vh;
     position: relative;
     max-width: 100%;
-    max-height: 35vh;
+    height: calc(35vh - 20px);
     overflow: auto;
+    padding-top: 20px;
+
     .chart-type {
         position: absolute;
         top: 5px;
         left: 10px;
+
         span {
             padding: 3px 5px;
         }
-        :nth-child(1){
-        color: lightseagreen;
+
+        :nth-child(1) {
+            color: lightseagreen;
         }
-        :nth-child(2){
+
+        :nth-child(2) {
             color: gray;
         }
-        :nth-child(3){
+
+        :nth-child(3) {
             color: orange;
         }
     }
+
     .custom-tooltip {
         color: lightseagreen;
         background-color: white;
-        border: 1px solid rgba(0,0,0,0.5);
+        border: 1px solid rgba(0, 0, 0, 0.5);
         padding: 0px 15px;
+    }
+
+    .moon-icon {
+        z-index: 100;
     }
 }

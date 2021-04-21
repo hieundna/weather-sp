@@ -1,5 +1,8 @@
 Link deployed: https://weathersp.herokuapp.com/
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 ## Available Scripts
 

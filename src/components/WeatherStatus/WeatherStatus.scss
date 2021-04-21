@@ -26,3 +26,18 @@
         }
     }
 }
+
+@media screen and (max-height: 694px) {
+    .main {
+        .state {
+            font-size: 30px !important;
+        }
+        .detail {
+            font-size: 18px;
+            margin-top: 7px;
+        }
+        .state-icon img{
+            width: 65px;
+        }
+    }
+}
