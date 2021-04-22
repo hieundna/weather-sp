@@ -18,7 +18,6 @@ function Header() {
             && !e.target.classList.contains('list-city')
             && !e.target.classList.contains('city-name')
             && !e.target.classList.contains('fal')) {
-            console.log('clickPosition:', e.target.classList);
             setShow(false);
             return;
         }
@@ -41,7 +40,7 @@ function Header() {
                 <div>myENV</div>
                 <div className='list-city' onClick={() => setShow(!show)}>
                     <span className='city-name'>{selectedCity}</span>
-                    <i class="fal fa-angle-down fa-lg"></i>
+                    <i className="fal fa-angle-down fa-lg"></i>
                 </div>
                 <div className={`dropdown ${show && 'show'}`}>
                     {city?.map((cityName, idx) =>
@@ -54,7 +53,7 @@ function Header() {
                     )}
                 </div>
             </div>
-            <div><i class="fas fa-bell fa-2x"></i></div>
+            <div><i className="fas fa-bell fa-2x"></i></div>
         </div>
     );
 }

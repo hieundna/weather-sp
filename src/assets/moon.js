@@ -2,7 +2,7 @@ import React from "react";
 
 const Moon = ({ cx, cy }) => {
     return (
-        <svg width="30px" xmlns="http://www.w3.org/2000/svg" version="1.1" x={cx-15} y={cy-260} viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000">
+        <svg width="30px" height='30px' xmlns="http://www.w3.org/2000/svg" version="1.1" x={cx-15} y={cy-50} viewBox="0 0 1000 1000" enableBackground="new 0 0 1000 1000">
             <g>
                 <g>
                     <g>

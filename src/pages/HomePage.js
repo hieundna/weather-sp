@@ -32,7 +32,6 @@ function HomePage() {
     const getWeatherInformation = async () => {
         try {
             const { data } = await getWeatherInfor(selectedCity);
-            console.log('weather:', data);
             setWeather(data);
         } catch (error) {
             console.error('Error city:', error);

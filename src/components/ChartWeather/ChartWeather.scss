@@ -2,9 +2,8 @@
     background-color: #fff;
     position: relative;
     max-width: 100%;
-    height: calc(35vh - 20px);
+    height: 40vh;
     overflow: auto;
-    padding-top: 20px;
 
     .chart-type {
         position: absolute;
@@ -35,7 +34,10 @@
         padding: 0px 15px;
     }
 
-    .moon-icon {
-        z-index: 100;
+    .recharts-label {
+        color: orange;
+        font-size: 20px;
+        font-weight: 600;
+        bottom: 30px;
     }
 }

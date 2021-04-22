@@ -9,7 +9,7 @@ function WeatherDetail() {
         <div className='weather-detail'>
             <div className='col-detail'>
                 <div className='title-detail'> PSI</div>
-                <div className='detail-value psi'>{parseInt(weather?.main?.feels_like || '--')}</div>
+                <div className='detail-value psi'>{parseInt(weather?.main?.feels_like || 23)}</div>
                 <div className='detail-state'>Good</div>
             </div>
             <div className='col-detail'>
@@ -22,7 +22,7 @@ function WeatherDetail() {
                 <div className='circle-icon'></div>
             </div>
             <div className='col-detail'>
-                <div className='add-icon'><i class="far fa-plus-circle fa-2x"></i></div>
+                <div className='add-icon'><i className="far fa-plus-circle fa-2x"></i></div>
                 <div className='add-text'>Add</div>
             </div>
         </div>
