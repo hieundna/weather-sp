@@ -1,4 +1,4 @@
-import './Header.scss';
+import '../../styles/Header.scss';
 import Context from '../../contexts/context'
 import { useContext, useEffect, useState } from 'react';
 
@@ -36,7 +36,7 @@ function Header() {
                 <span></span>
             </div>
             <div className='title'>
-                <div>myENV</div>
+                <div role='myENV-test'>myENV</div>
                 <div className='list-city' onClick={() => setShow(!show)}>
                     <span className='city-name'>{selectedCity}</span>
                     <i className="fal fa-angle-down fa-lg"></i>

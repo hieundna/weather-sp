@@ -1,7 +1,6 @@
-import './ChartWeather.scss';
-import Sun from '../../assets/sun'
-import Moon from '../../assets/moon'
+import '../../styles/ChartWeather.scss';
 import Context from '../../contexts/context'
+import { CustomTooltip, CustomizedActiveDot } from '../../utils/ultils'
 import { useContext, useEffect, useState } from 'react';
 import { AreaChart, ResponsiveContainer, Label, Area, ReferenceArea, CartesianGrid, XAxis, Tooltip } from 'recharts';
 
@@ -25,6 +24,7 @@ function ChartWeather() {
         }
         console.log('NightTime', arr);
         setNightTime([...arr]);
+        onResizeWidth();
 
         window.addEventListener('resize', onResizeWidth);
         return () => {
@@ -32,14 +32,24 @@ function ChartWeather() {
         }
     }, [])
 
+    useEffect(() => {
+        if (nightTime.length > 1) {
+            setTimeout(() => {
+                setWindowWidth(windowWidth+1);
+                onResizeWidth();
+            }, 1000)
+        }
+    }, [nightTime])
+
 
     const onResizeWidth = e => {
-        const width = e.target.innerWidth;
+        console.log(window.innerWidth);
+        const width = window.innerWidth;
         setWindowWidth(width)
     };
     return (
         <div className='weather-chart'>
-            <ResponsiveContainer width={2500} height='100%'>
+            <ResponsiveContainer key={windowWidth} width={2500} height='100%'>
                 <AreaChart data={chartData}>
                     <XAxis dataKey="hour" padding={{ left: 30 }} />
                     <Tooltip content={<CustomTooltip />} />
@@ -49,9 +59,9 @@ function ChartWeather() {
                         <ReferenceArea key={idx} x1={item.start} x2={item.end} y1={0} y2={8} strokeOpacity={1} >
                             {
                                 idx !== nightTime.length - 1
-                                && <Label 
-                                    value={`Day ${idx + 1}`} 
-                                    offset={50} 
+                                && <Label
+                                    value={`Day ${idx + 1}`}
+                                    offset={50}
                                     position="right"
                                 />
                             }
@@ -75,29 +85,5 @@ function ChartWeather() {
         </div>
     );
 }
-
-const CustomTooltip = ({ payload, active }) => {
-    if (active) {
-        return (
-            <div className="custom-tooltip">
-                <p className="label">{`Tide : ${payload[0].value}m`}</p>
-            </div>
-        );
-    }
-
-    return null;
-}
-
-const CustomizedActiveDot = (props) => {
-    const { cx, cy, value } = props;
-    if (value[1] > 0) {
-        return (
-            <Sun cx={cx} cy={cy} />
-        );
-    }
-    return (
-        <Moon cx={cx} cy={cy} />
-    );
-};
 
 export default ChartWeather;

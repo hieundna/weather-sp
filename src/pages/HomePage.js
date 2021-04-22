@@ -1,4 +1,4 @@
-import './HomePage.scss';
+import '../styles/HomePage.scss';
 import Context from '../contexts/context'
 import Summary from '../components/Summary/Summary';
 import ChartWeather from '../components/ChartWeather/ChartWeather';
@@ -32,6 +32,7 @@ function HomePage() {
     const getWeatherInformation = async () => {
         try {
             const { data } = await getWeatherInfor(selectedCity);
+            console.log('data',data);
             setWeather(data);
         } catch (error) {
             console.error('Error city:', error);
@@ -41,7 +42,7 @@ function HomePage() {
 
     return (
         <Context.Provider value={{ weather, city, selectedCity, chartData, setSelectedCity, getWeatherInformation }}>
-            <div className="container">
+            <div data-testid='container' className="container">
                 <Summary />
                 <ChartWeather />
             </div>

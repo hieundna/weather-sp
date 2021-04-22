@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartWeather Component expect to render ChartWeather component 1`] = `
+Array [
+  " ",
+  <ChartWeather>
+    <div
+      className="weather-chart"
+    >
+      <ResponsiveContainer
+        debounce={0}
+        height="100%"
+        key="1024"
+        width={2500}
+      >
+        <ResizeDetector
+          handleHeight={true}
+          handleWidth={true}
+          onResize={[Function]}
+          targetRef={
+            Object {
+              "current": <div
+                class="recharts-responsive-container"
+                style="width: 2500px; height: 100%;"
+              />,
+            }
+          }
+        >
+          <div
+            className="recharts-responsive-container"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": undefined,
+                "minHeight": undefined,
+                "minWidth": undefined,
+                "width": 2500,
+              }
+            }
+          >
+            <AreaChart
+              barCategoryGap="10%"
+              barGap={4}
+              data={
+                Array [
+                  Object {
+                    "hour": "12 a.m",
+                    "night": 8,
+                    "sun": 0,
+                    "tide": 2.9,
+                  },
+                  Object {
+                    "hour": "2 a.m",
+                    "night": 8,
+                    "sun": 0,
+                    "tide": 2.8,
+                  },
+                  Object {
+                    "hour": "4 a.m",
+                    "night": 8,
+                    "sun": 0,
+                    "tide": 2.5,
+                  },
+                ]
+              }
+              height={0}
+              layout="horizontal"
+              margin={
+                Object {
+                  "bottom": 5,
+                  "left": 5,
+                  "right": 5,
+                  "top": 5,
+                }
+              }
+              reverseStackOrder={false}
+              stackOffset="none"
+              syncMethod="index"
+              width={2500}
+            />
+          </div>
+        </ResizeDetector>
+      </ResponsiveContainer>
+      <div
+        className="chart-type"
+      >
+        <span>
+          Tide
+        </span>
+        <span>
+          •
+        </span>
+        <span>
+          Sunrire & Sunset
+        </span>
+      </div>
+    </div>
+  </ChartWeather>,
+  " ",
+]
+`;

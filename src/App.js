@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <Route>
+    <Route path="/">
       <HomePage />
     </Route>
   );

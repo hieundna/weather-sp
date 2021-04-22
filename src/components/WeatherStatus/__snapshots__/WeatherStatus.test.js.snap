@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherStatus Component expect to render WeatherStatus component 1`] = `
+Array [
+  " ",
+  <WeatherStatus>
+    <div
+      className="main"
+    >
+      <div
+        className="state-icon"
+      >
+        <img
+          alt="cloud-icon"
+          src="http://openweathermap.org/img/wn/03n@2x.png"
+        />
+      </div>
+      <div
+        className="main-title"
+      >
+        <div
+          className="state"
+        >
+          Clouds
+        </div>
+        <div
+          className="detail"
+        >
+          <i
+            className="fas fa-thermometer-half"
+          />
+          <span>
+            28
+            °C
+          </span>
+        </div>
+      </div>
+      <div
+        className="detail"
+      >
+        <i
+          className="far fa-tint"
+        />
+        <span>
+          83
+          %
+        </span>
+      </div>
+    </div>
+  </WeatherStatus>,
+  " ",
+]
+`;

@@ -1,4 +1,4 @@
-import './WeatherStatus.scss';
+import '../../styles/WeatherStatus.scss';
 import Context from '../../contexts/context'
 import { useContext } from 'react';
 

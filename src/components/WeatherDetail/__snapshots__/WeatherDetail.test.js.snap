@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDetail Component expect to render WeatherDetail component 1`] = `
+Array [
+  " ",
+  <WeatherDetail>
+    <div
+      className="weather-detail"
+    >
+      <div
+        className="col-detail"
+      >
+        <div
+          className="title-detail"
+        >
+           PSI
+        </div>
+        <div
+          className="detail-value psi"
+        >
+          32
+        </div>
+        <div
+          className="detail-state"
+        >
+          Good
+        </div>
+      </div>
+      <div
+        className="col-detail"
+      >
+        <div
+          className="title-detail"
+        >
+           RAIN
+        </div>
+        <div
+          className="detail-value"
+        >
+          0
+        </div>
+        <div
+          className="detail-state"
+        >
+          mm
+        </div>
+      </div>
+      <div
+        className="col-detail"
+      >
+        <div
+          className="title-detail"
+        >
+           DENGUE
+        </div>
+        <div
+          className="circle-icon"
+        />
+      </div>
+      <div
+        className="col-detail"
+      >
+        <div
+          className="add-icon"
+        >
+          <i
+            className="far fa-plus-circle fa-2x"
+          />
+        </div>
+        <div
+          className="add-text"
+        >
+          Add
+        </div>
+      </div>
+    </div>
+  </WeatherDetail>,
+  " ",
+]
+`;

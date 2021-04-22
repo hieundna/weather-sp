@@ -1,0 +1,43 @@
+.weather-chart {
+    background-color: #fff;
+    position: relative;
+    max-width: 100%;
+    height: 40vh;
+    overflow: auto;
+
+    .chart-type {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+
+        span {
+            padding: 3px 5px;
+        }
+
+        :nth-child(1) {
+            color: lightseagreen;
+        }
+
+        :nth-child(2) {
+            color: gray;
+        }
+
+        :nth-child(3) {
+            color: orange;
+        }
+    }
+
+    .custom-tooltip {
+        color: lightseagreen;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 0px 15px;
+    }
+
+    .recharts-label {
+        color: orange;
+        font-size: 20px;
+        font-weight: 600;
+        bottom: 30px;
+    }
+}
