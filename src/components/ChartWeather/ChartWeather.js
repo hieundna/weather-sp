@@ -23,7 +23,6 @@ function ChartWeather() {
                 }
             }
         }
-        console.log('windowOffset:', window.innerWidth);
         console.log('NightTime', arr);
         setNightTime([...arr]);
 
@@ -63,7 +62,7 @@ function ChartWeather() {
                         dataKey="sun"
                         stroke="orange"
                         fillOpacity={0}
-                        dot={windowWidth < 800 ? <CustomizedActiveDot /> : false}
+                        dot={windowWidth <= 1024 ? <CustomizedActiveDot /> : false}
                         activeDot={<CustomizedActiveDot />}
                     />
                 </AreaChart>

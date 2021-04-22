@@ -3,12 +3,11 @@ import Context from '../../contexts/context'
 import { useContext, useEffect, useState } from 'react';
 
 function Header() {
-    const { selectedCity, setSelectedCity, city, getWeatherInfortion } = useContext(Context);
+    const { selectedCity, setSelectedCity, city } = useContext(Context);
     const [show, setShow] = useState(false);
 
     const selectCity = (index) => {
         setShow(!show);
-        console.log(city)
         setSelectedCity(city[index])
     }
 
@@ -42,7 +41,7 @@ function Header() {
                     <span className='city-name'>{selectedCity}</span>
                     <i className="fal fa-angle-down fa-lg"></i>
                 </div>
-                <div className={`dropdown ${show && 'show'}`}>
+                <div className={`dropdown ${show ? 'show' : ''}`}>
                     {city?.map((cityName, idx) =>
                         <div key={idx}
                             className='option'
