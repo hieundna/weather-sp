@@ -27,7 +27,6 @@ describe('WeatherStatus Component', () => {
     })
     test('renders without error', () => {
         const weatherStatusComponent = wrapper.find(".main");
-        // expect(wrapper.props().weather).toEqual('Clouds');
         expect(weatherStatusComponent.length).toBe(1);
     });
 

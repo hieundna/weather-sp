@@ -14,10 +14,4 @@ describe('App Container test', () => {
     expect(titleDiv).toHaveClass('title-detail');
     expect(linkElement).toBeInTheDocument();
   });
-  // test("render match expected", () => {
-  //   const wrapper = appContainer();
-  //   const appComponent = wrapper.findByTestId("container");
-  //   expect(appComponent.length).toEqual(1);
-  // });
-
 })

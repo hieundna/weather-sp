@@ -10,9 +10,4 @@ describe('Header Component test', () => {
         expect(title).toHaveTextContent('myENV');
         expect(wrapper).toMatchSnapshot();
     })
-    // test('renders without error', () => {
-    //     const wrapper = setup();
-    //     const chartComponent = findByTestAttr(wrapper, "chart");
-    //     expect(chartComponent.length).toBe(1);
-    // })
 })

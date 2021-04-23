@@ -1,6 +1,6 @@
 import '../../styles/ChartWeather.scss';
 import Context from '../../contexts/context'
-import { CustomTooltip, CustomizedActiveDot } from '../../utils/ultils'
+import { CustomTooltip, CustomizedActiveDot } from '../../utils/utils'
 import { useContext, useEffect, useState } from 'react';
 import { AreaChart, ResponsiveContainer, Label, Area, ReferenceArea, CartesianGrid, XAxis, Tooltip } from 'recharts';
 
@@ -37,13 +37,12 @@ function ChartWeather() {
             setTimeout(() => {
                 setWindowWidth(windowWidth+1);
                 onResizeWidth();
-            }, 1000)
+            }, 500)
         }
     }, [nightTime])
 
 
     const onResizeWidth = e => {
-        console.log(window.innerWidth);
         const width = window.innerWidth;
         setWindowWidth(width)
     };

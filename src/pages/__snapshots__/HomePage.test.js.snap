@@ -1,496 +1,251 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HomePage Component expect to render HomePage component 1`] = `
-<HomePage>
+<ContextProvider
+  value={
+    Object {
+      "chartData": Array [
+        Object {
+          "hour": "12 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.9,
+        },
+        Object {
+          "hour": "2 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.8,
+        },
+        Object {
+          "hour": "4 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.5,
+        },
+        Object {
+          "hour": "6 a.m",
+          "night": 8,
+          "sun": 0.001,
+          "tide": 2,
+        },
+        Object {
+          "hour": "8 a.m",
+          "night": 0,
+          "sun": 1.6,
+          "tide": 1.5,
+        },
+        Object {
+          "hour": "10 a.m",
+          "night": 0,
+          "sun": 3.4,
+          "tide": 1,
+        },
+        Object {
+          "hour": "12 p.m",
+          "night": 0,
+          "sun": 4.1,
+          "tide": 0.7,
+        },
+        Object {
+          "hour": "2 p.m",
+          "night": 0,
+          "sun": 3.4,
+          "tide": 1,
+        },
+        Object {
+          "hour": "4 p.m",
+          "night": 0,
+          "sun": 1.6,
+          "tide": 1.5,
+        },
+        Object {
+          "hour": "6 p.m",
+          "night": 8,
+          "sun": 0.001,
+          "tide": 2,
+        },
+        Object {
+          "hour": "8 p.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.5,
+        },
+        Object {
+          "hour": "10 p.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.8,
+        },
+        Object {
+          "hour": "12 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.9,
+        },
+        Object {
+          "hour": "2 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.8,
+        },
+        Object {
+          "hour": "4 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.5,
+        },
+        Object {
+          "hour": "6 a.m",
+          "night": 8,
+          "sun": 0.001,
+          "tide": 2,
+        },
+        Object {
+          "hour": "8 a.m",
+          "night": 0,
+          "sun": 1.6,
+          "tide": 1.5,
+        },
+        Object {
+          "hour": "10 a.m",
+          "night": 0,
+          "sun": 3.4,
+          "tide": 1,
+        },
+        Object {
+          "hour": "12 p.m",
+          "night": 0,
+          "sun": 4.1,
+          "tide": 0.7,
+        },
+        Object {
+          "hour": "2 p.m",
+          "night": 0,
+          "sun": 3.4,
+          "tide": 1,
+        },
+        Object {
+          "hour": "4 p.m",
+          "night": 0,
+          "sun": 1.6,
+          "tide": 1.5,
+        },
+        Object {
+          "hour": "6 p.m",
+          "night": 8,
+          "sun": 0.001,
+          "tide": 2,
+        },
+        Object {
+          "hour": "8 p.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.5,
+        },
+        Object {
+          "hour": "10 p.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.8,
+        },
+        Object {
+          "hour": "12 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.9,
+        },
+        Object {
+          "hour": "2 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.8,
+        },
+        Object {
+          "hour": "4 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.5,
+        },
+        Object {
+          "hour": "6 a.m",
+          "night": 8,
+          "sun": 0.001,
+          "tide": 2,
+        },
+        Object {
+          "hour": "8 a.m",
+          "night": 0,
+          "sun": 1.6,
+          "tide": 1.5,
+        },
+        Object {
+          "hour": "10 a.m",
+          "night": 0,
+          "sun": 3.4,
+          "tide": 1,
+        },
+        Object {
+          "hour": "12 p.m",
+          "night": 0,
+          "sun": 4.1,
+          "tide": 0.7,
+        },
+        Object {
+          "hour": "2 p.m",
+          "night": 0,
+          "sun": 3.4,
+          "tide": 1,
+        },
+        Object {
+          "hour": "4 p.m",
+          "night": 0,
+          "sun": 1.6,
+          "tide": 1.5,
+        },
+        Object {
+          "hour": "6 p.m",
+          "night": 8,
+          "sun": 0.001,
+          "tide": 2,
+        },
+        Object {
+          "hour": "8 p.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.5,
+        },
+        Object {
+          "hour": "10 p.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.8,
+        },
+        Object {
+          "hour": "12 a.m",
+          "night": 8,
+          "sun": 0,
+          "tide": 2.9,
+        },
+      ],
+      "city": Array [
+        "Ho Chi Minh",
+        "Vinh",
+        "Singapore",
+      ],
+      "getWeatherInformation": [Function],
+      "selectedCity": "Singapore",
+      "setSelectedCity": [Function],
+      "weather": undefined,
+    }
+  }
+>
   <div
     className="container"
     data-testid="container"
   >
-    <Summary>
-      <div
-        className="weather-sumary"
-        role="summary"
-      >
-        <Header>
-          <div
-            className="header"
-          >
-            <div
-              className="burger"
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-            <div
-              className="title"
-            >
-              <div
-                role="myENV-test"
-              >
-                myENV
-              </div>
-              <div
-                className="list-city"
-                onClick={[Function]}
-              >
-                <span
-                  className="city-name"
-                >
-                  Singapore
-                </span>
-                <i
-                  className="fal fa-angle-down fa-lg"
-                />
-              </div>
-              <div
-                className="dropdown "
-              >
-                <div
-                  className="option"
-                  key="0"
-                  onClick={[Function]}
-                >
-                  Ho Chi Minh
-                </div>
-                <div
-                  className="option"
-                  key="1"
-                  onClick={[Function]}
-                >
-                  Vinh
-                </div>
-                <div
-                  className="option"
-                  key="2"
-                  onClick={[Function]}
-                >
-                  Singapore
-                </div>
-              </div>
-            </div>
-            <div>
-              <i
-                className="fas fa-bell fa-2x"
-              />
-            </div>
-          </div>
-        </Header>
-        <WeatherStatus>
-          <div
-            className="main"
-          >
-            <div
-              className="state-icon"
-            >
-              <i
-                className="fas fa-cloud fa-3x"
-              />
-            </div>
-            <div
-              className="main-title"
-            >
-              <div
-                className="state"
-              >
-                Not found
-              </div>
-              <div
-                className="detail"
-              >
-                <i
-                  className="fas fa-thermometer-half"
-                />
-                <span>
-                  --
-                  °C
-                </span>
-              </div>
-            </div>
-            <div
-              className="detail"
-            >
-              <i
-                className="far fa-tint"
-              />
-              <span>
-                --
-                %
-              </span>
-            </div>
-          </div>
-        </WeatherStatus>
-        <WeatherDetail>
-          <div
-            className="weather-detail"
-          >
-            <div
-              className="col-detail"
-            >
-              <div
-                className="title-detail"
-              >
-                 PSI
-              </div>
-              <div
-                className="detail-value psi"
-              >
-                23
-              </div>
-              <div
-                className="detail-state"
-              >
-                Good
-              </div>
-            </div>
-            <div
-              className="col-detail"
-            >
-              <div
-                className="title-detail"
-              >
-                 RAIN
-              </div>
-              <div
-                className="detail-value"
-              >
-                0
-              </div>
-              <div
-                className="detail-state"
-              >
-                mm
-              </div>
-            </div>
-            <div
-              className="col-detail"
-            >
-              <div
-                className="title-detail"
-              >
-                 DENGUE
-              </div>
-              <div
-                className="circle-icon"
-              />
-            </div>
-            <div
-              className="col-detail"
-            >
-              <div
-                className="add-icon"
-              >
-                <i
-                  className="far fa-plus-circle fa-2x"
-                />
-              </div>
-              <div
-                className="add-text"
-              >
-                Add
-              </div>
-            </div>
-          </div>
-        </WeatherDetail>
-      </div>
-    </Summary>
-    <ChartWeather>
-      <div
-        className="weather-chart"
-      >
-        <ResponsiveContainer
-          debounce={0}
-          height="100%"
-          key="1024"
-          width={2500}
-        >
-          <ResizeDetector
-            handleHeight={true}
-            handleWidth={true}
-            onResize={[Function]}
-            targetRef={
-              Object {
-                "current": <div
-                  class="recharts-responsive-container"
-                  style="width: 2500px; height: 100%;"
-                />,
-              }
-            }
-          >
-            <div
-              className="recharts-responsive-container"
-              style={
-                Object {
-                  "height": "100%",
-                  "maxHeight": undefined,
-                  "minHeight": undefined,
-                  "minWidth": undefined,
-                  "width": 2500,
-                }
-              }
-            >
-              <AreaChart
-                barCategoryGap="10%"
-                barGap={4}
-                data={
-                  Array [
-                    Object {
-                      "hour": "12 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.9,
-                    },
-                    Object {
-                      "hour": "2 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.8,
-                    },
-                    Object {
-                      "hour": "4 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.5,
-                    },
-                    Object {
-                      "hour": "6 a.m",
-                      "night": 8,
-                      "sun": 0.001,
-                      "tide": 2,
-                    },
-                    Object {
-                      "hour": "8 a.m",
-                      "night": 0,
-                      "sun": 1.6,
-                      "tide": 1.5,
-                    },
-                    Object {
-                      "hour": "10 a.m",
-                      "night": 0,
-                      "sun": 3.4,
-                      "tide": 1,
-                    },
-                    Object {
-                      "hour": "12 p.m",
-                      "night": 0,
-                      "sun": 4.1,
-                      "tide": 0.7,
-                    },
-                    Object {
-                      "hour": "2 p.m",
-                      "night": 0,
-                      "sun": 3.4,
-                      "tide": 1,
-                    },
-                    Object {
-                      "hour": "4 p.m",
-                      "night": 0,
-                      "sun": 1.6,
-                      "tide": 1.5,
-                    },
-                    Object {
-                      "hour": "6 p.m",
-                      "night": 8,
-                      "sun": 0.001,
-                      "tide": 2,
-                    },
-                    Object {
-                      "hour": "8 p.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.5,
-                    },
-                    Object {
-                      "hour": "10 p.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.8,
-                    },
-                    Object {
-                      "hour": "12 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.9,
-                    },
-                    Object {
-                      "hour": "2 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.8,
-                    },
-                    Object {
-                      "hour": "4 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.5,
-                    },
-                    Object {
-                      "hour": "6 a.m",
-                      "night": 8,
-                      "sun": 0.001,
-                      "tide": 2,
-                    },
-                    Object {
-                      "hour": "8 a.m",
-                      "night": 0,
-                      "sun": 1.6,
-                      "tide": 1.5,
-                    },
-                    Object {
-                      "hour": "10 a.m",
-                      "night": 0,
-                      "sun": 3.4,
-                      "tide": 1,
-                    },
-                    Object {
-                      "hour": "12 p.m",
-                      "night": 0,
-                      "sun": 4.1,
-                      "tide": 0.7,
-                    },
-                    Object {
-                      "hour": "2 p.m",
-                      "night": 0,
-                      "sun": 3.4,
-                      "tide": 1,
-                    },
-                    Object {
-                      "hour": "4 p.m",
-                      "night": 0,
-                      "sun": 1.6,
-                      "tide": 1.5,
-                    },
-                    Object {
-                      "hour": "6 p.m",
-                      "night": 8,
-                      "sun": 0.001,
-                      "tide": 2,
-                    },
-                    Object {
-                      "hour": "8 p.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.5,
-                    },
-                    Object {
-                      "hour": "10 p.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.8,
-                    },
-                    Object {
-                      "hour": "12 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.9,
-                    },
-                    Object {
-                      "hour": "2 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.8,
-                    },
-                    Object {
-                      "hour": "4 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.5,
-                    },
-                    Object {
-                      "hour": "6 a.m",
-                      "night": 8,
-                      "sun": 0.001,
-                      "tide": 2,
-                    },
-                    Object {
-                      "hour": "8 a.m",
-                      "night": 0,
-                      "sun": 1.6,
-                      "tide": 1.5,
-                    },
-                    Object {
-                      "hour": "10 a.m",
-                      "night": 0,
-                      "sun": 3.4,
-                      "tide": 1,
-                    },
-                    Object {
-                      "hour": "12 p.m",
-                      "night": 0,
-                      "sun": 4.1,
-                      "tide": 0.7,
-                    },
-                    Object {
-                      "hour": "2 p.m",
-                      "night": 0,
-                      "sun": 3.4,
-                      "tide": 1,
-                    },
-                    Object {
-                      "hour": "4 p.m",
-                      "night": 0,
-                      "sun": 1.6,
-                      "tide": 1.5,
-                    },
-                    Object {
-                      "hour": "6 p.m",
-                      "night": 8,
-                      "sun": 0.001,
-                      "tide": 2,
-                    },
-                    Object {
-                      "hour": "8 p.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.5,
-                    },
-                    Object {
-                      "hour": "10 p.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.8,
-                    },
-                    Object {
-                      "hour": "12 a.m",
-                      "night": 8,
-                      "sun": 0,
-                      "tide": 2.9,
-                    },
-                  ]
-                }
-                height={0}
-                layout="horizontal"
-                margin={
-                  Object {
-                    "bottom": 5,
-                    "left": 5,
-                    "right": 5,
-                    "top": 5,
-                  }
-                }
-                reverseStackOrder={false}
-                stackOffset="none"
-                syncMethod="index"
-                width={2500}
-              />
-            </div>
-          </ResizeDetector>
-        </ResponsiveContainer>
-        <div
-          className="chart-type"
-        >
-          <span>
-            Tide
-          </span>
-          <span>
-            •
-          </span>
-          <span>
-            Sunrire & Sunset
-          </span>
-        </div>
-      </div>
-    </ChartWeather>
+    <Summary />
+    <ChartWeather />
   </div>
-</HomePage>
+</ContextProvider>
 `;

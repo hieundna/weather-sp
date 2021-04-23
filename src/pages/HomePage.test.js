@@ -1,9 +1,9 @@
 import React from 'react';
 import HomePage from './HomePage.js';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
-const wrapper = mount(<HomePage />);
+const wrapper = shallow(<HomePage />);
 describe('HomePage Component', () => {
     test("expect to render HomePage component", () => {
         expect(toJson(wrapper)).toMatchSnapshot();
