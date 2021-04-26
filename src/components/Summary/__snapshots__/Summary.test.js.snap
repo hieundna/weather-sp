@@ -32,7 +32,9 @@ Object {
             >
               <span
                 class="city-name"
-              />
+              >
+                Singapore
+              </span>
               <i
                 class="fal fa-angle-down fa-lg"
               />
@@ -207,7 +209,9 @@ Object {
           >
             <span
               class="city-name"
-            />
+            >
+              Singapore
+            </span>
             <i
               class="fal fa-angle-down fa-lg"
             />

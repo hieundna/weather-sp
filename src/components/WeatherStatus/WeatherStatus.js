@@ -1,15 +1,14 @@
 import '../../styles/WeatherStatus.scss';
-import Context from '../../contexts/context'
-import { useContext } from 'react';
+import { useAppContext } from '../../contexts/context'
 
 function WeatherStatus() {
-    const {weather} = useContext(Context);
+    const [{ weather }] = useAppContext();
     return (
         <div className='main'>
             <div className='state-icon'>
-                {weather ? 
-                    <img src={`http://openweathermap.org/img/wn/${weather?.weather[0]?.icon}@2x.png`} alt='cloud-icon' /> 
-                : <i className="fas fa-cloud fa-3x"></i> }
+                {weather ?
+                    <img src={`http://openweathermap.org/img/wn/${weather?.weather[0]?.icon}@2x.png`} alt='cloud-icon' />
+                    : <i className="fas fa-cloud fa-3x"></i>}
             </div>
             <div className='main-title'>
                 <div className='state'>{weather?.weather[0]?.main || 'Not found'}</div>

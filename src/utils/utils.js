@@ -1,5 +1,5 @@
-import Sun from '../assets/sun'
-import Moon from '../assets/moon'
+import Sun from '../assets/icons/sun'
+import Moon from '../assets/icons/moon'
 
 export const CustomTooltip = ({ payload, active }) => {
     if (active) {

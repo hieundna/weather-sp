@@ -5,6 +5,7 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+       
       <div
         class="header"
       >
@@ -28,7 +29,9 @@ Object {
           >
             <span
               class="city-name"
-            />
+            >
+              Singapore
+            </span>
             <i
               class="fal fa-angle-down fa-lg"
             />
@@ -59,9 +62,11 @@ Object {
           />
         </div>
       </div>
+       
     </div>
   </body>,
   "container": <div>
+     
     <div
       class="header"
     >
@@ -85,7 +90,9 @@ Object {
         >
           <span
             class="city-name"
-          />
+          >
+            Singapore
+          </span>
           <i
             class="fal fa-angle-down fa-lg"
           />
@@ -116,6 +123,7 @@ Object {
         />
       </div>
     </div>
+     
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

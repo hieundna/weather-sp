@@ -1,11 +1,11 @@
 import '../../styles/ChartWeather.scss';
-import Context from '../../contexts/context'
+import { useAppContext } from '../../contexts/context'
 import { CustomTooltip, CustomizedActiveDot } from '../../utils/utils'
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AreaChart, ResponsiveContainer, Label, Area, ReferenceArea, CartesianGrid, XAxis, Tooltip } from 'recharts';
 
 function ChartWeather() {
-    const { chartData } = useContext(Context);
+    const [{ chartData }] = useAppContext();
     const [nightTime, setNightTime] = useState([{ start: 0, end: 3 }]);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -35,7 +35,7 @@ function ChartWeather() {
     useEffect(() => {
         if (nightTime.length > 1) {
             setTimeout(() => {
-                setWindowWidth(windowWidth+1);
+                setWindowWidth(windowWidth + 1);
                 onResizeWidth();
             }, 500)
         }
@@ -50,7 +50,7 @@ function ChartWeather() {
         <div className='weather-chart'>
             <ResponsiveContainer key={windowWidth} width={2500} height='100%'>
                 <AreaChart data={chartData}>
-                    <XAxis dataKey="hour" padding={{ left: 30 }} />
+                    <XAxis dataKey="hour" />
                     <Tooltip content={<CustomTooltip />} />
                     <CartesianGrid stroke="#ccc" strokeDasharray="0 5" />
                     <Area type="monotone" dataKey="tide" stroke="#8884d8" fillOpacity={1} fill="#94d6f7" />

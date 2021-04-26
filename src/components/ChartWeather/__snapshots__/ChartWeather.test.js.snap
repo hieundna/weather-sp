@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ChartWeather Component expect to render ChartWeather component 1`] = `
-Array [
-  " ",
+<AppProvider>
+   
   <ChartWeather>
     <div
       className="weather-chart"
@@ -45,21 +45,188 @@ Array [
                 Array [
                   Object {
                     "hour": "12 a.m",
-                    "night": 8,
                     "sun": 0,
                     "tide": 2.9,
                   },
                   Object {
                     "hour": "2 a.m",
-                    "night": 8,
                     "sun": 0,
                     "tide": 2.8,
                   },
                   Object {
                     "hour": "4 a.m",
-                    "night": 8,
                     "sun": 0,
                     "tide": 2.5,
+                  },
+                  Object {
+                    "hour": "6 a.m",
+                    "sun": 0.001,
+                    "tide": 2,
+                  },
+                  Object {
+                    "hour": "8 a.m",
+                    "sun": 1.6,
+                    "tide": 1.5,
+                  },
+                  Object {
+                    "hour": "10 a.m",
+                    "sun": 3.4,
+                    "tide": 1,
+                  },
+                  Object {
+                    "hour": "12 p.m",
+                    "sun": 4.1,
+                    "tide": 0.7,
+                  },
+                  Object {
+                    "hour": "2 p.m",
+                    "sun": 3.4,
+                    "tide": 1,
+                  },
+                  Object {
+                    "hour": "4 p.m",
+                    "sun": 1.6,
+                    "tide": 1.5,
+                  },
+                  Object {
+                    "hour": "6 p.m",
+                    "sun": 0.001,
+                    "tide": 2,
+                  },
+                  Object {
+                    "hour": "8 p.m",
+                    "sun": 0,
+                    "tide": 2.5,
+                  },
+                  Object {
+                    "hour": "10 p.m",
+                    "sun": 0,
+                    "tide": 2.8,
+                  },
+                  Object {
+                    "hour": "12 a.m",
+                    "sun": 0,
+                    "tide": 2.9,
+                  },
+                  Object {
+                    "hour": "2 a.m",
+                    "sun": 0,
+                    "tide": 2.8,
+                  },
+                  Object {
+                    "hour": "4 a.m",
+                    "sun": 0,
+                    "tide": 2.5,
+                  },
+                  Object {
+                    "hour": "6 a.m",
+                    "sun": 0.001,
+                    "tide": 2,
+                  },
+                  Object {
+                    "hour": "8 a.m",
+                    "sun": 1.6,
+                    "tide": 1.5,
+                  },
+                  Object {
+                    "hour": "10 a.m",
+                    "sun": 3.4,
+                    "tide": 1,
+                  },
+                  Object {
+                    "hour": "12 p.m",
+                    "sun": 4.1,
+                    "tide": 0.7,
+                  },
+                  Object {
+                    "hour": "2 p.m",
+                    "sun": 3.4,
+                    "tide": 1,
+                  },
+                  Object {
+                    "hour": "4 p.m",
+                    "sun": 1.6,
+                    "tide": 1.5,
+                  },
+                  Object {
+                    "hour": "6 p.m",
+                    "sun": 0.001,
+                    "tide": 2,
+                  },
+                  Object {
+                    "hour": "8 p.m",
+                    "sun": 0,
+                    "tide": 2.5,
+                  },
+                  Object {
+                    "hour": "10 p.m",
+                    "sun": 0,
+                    "tide": 2.8,
+                  },
+                  Object {
+                    "hour": "12 a.m",
+                    "sun": 0,
+                    "tide": 2.9,
+                  },
+                  Object {
+                    "hour": "2 a.m",
+                    "sun": 0,
+                    "tide": 2.8,
+                  },
+                  Object {
+                    "hour": "4 a.m",
+                    "sun": 0,
+                    "tide": 2.5,
+                  },
+                  Object {
+                    "hour": "6 a.m",
+                    "sun": 0.001,
+                    "tide": 2,
+                  },
+                  Object {
+                    "hour": "8 a.m",
+                    "sun": 1.6,
+                    "tide": 1.5,
+                  },
+                  Object {
+                    "hour": "10 a.m",
+                    "sun": 3.4,
+                    "tide": 1,
+                  },
+                  Object {
+                    "hour": "12 p.m",
+                    "sun": 4.1,
+                    "tide": 0.7,
+                  },
+                  Object {
+                    "hour": "2 p.m",
+                    "sun": 3.4,
+                    "tide": 1,
+                  },
+                  Object {
+                    "hour": "4 p.m",
+                    "sun": 1.6,
+                    "tide": 1.5,
+                  },
+                  Object {
+                    "hour": "6 p.m",
+                    "sun": 0.001,
+                    "tide": 2,
+                  },
+                  Object {
+                    "hour": "8 p.m",
+                    "sun": 0,
+                    "tide": 2.5,
+                  },
+                  Object {
+                    "hour": "10 p.m",
+                    "sun": 0,
+                    "tide": 2.8,
+                  },
+                  Object {
+                    "hour": "12 a.m",
+                    "sun": 0,
+                    "tide": 2.9,
                   },
                 ]
               }
@@ -95,7 +262,7 @@ Array [
         </span>
       </div>
     </div>
-  </ChartWeather>,
-  " ",
-]
+  </ChartWeather>
+   
+</AppProvider>
 `;

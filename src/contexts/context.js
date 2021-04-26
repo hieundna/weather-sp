@@ -1,20 +1,28 @@
-import { createContext } from 'react';
-const initialState = {
-    city: ['Ho Chi Minh', 'Vinh', 'Singapore'],
-    weather: {
-        weather: [
-            {
-                main: "Clouds",
-                icon: "03n"
-            }
-        ],
-        main: {
-            temp: 28,
-            feels_like: 32.57,
-            humidity: 83
-        }
-    }
+import { createContext, useCallback, useContext, useReducer } from 'react';
+import { rootReducer, initialState } from './reducers/rootReducer'
+
+const Context = createContext({});
+
+export const AppProvider = props => {
+    const { children } = props;
+    const [data, dispatch] = useReducer(rootReducer, initialState);
+    return (
+        <Context.Provider value={{ data, setData: dispatch }}>
+            {children}
+        </Context.Provider>
+    )
 }
-const Context = createContext(initialState);
+
+export const useAppContext = () => {
+    const { data, setData } = useContext(Context)
+
+    const dispatch = useCallback(
+        ({ type, payload }) => {
+            setData({ payload, type })
+        },
+        [setData]
+    )
+    return [data, dispatch]
+}
 
 export default Context;

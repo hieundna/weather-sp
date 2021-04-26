@@ -1,9 +1,9 @@
 import '../../styles/WeatherDetail.scss';
-import Context from '../../contexts/context'
-import { useContext } from 'react';
+import { useAppContext } from '../../contexts/context'
+// import { useContext } from 'react';
 
 function WeatherDetail() {
-    const { weather } = useContext(Context);
+    const [{weather}] = useAppContext();
     
     return (
         <div className='weather-detail'>

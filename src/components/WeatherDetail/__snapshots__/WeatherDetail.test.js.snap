@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`WeatherDetail Component expect to render WeatherDetail component 1`] = `
-Array [
-  " ",
+<AppProvider>
+   
   <WeatherDetail>
     <div
       className="weather-detail"
@@ -74,7 +74,7 @@ Array [
         </div>
       </div>
     </div>
-  </WeatherDetail>,
-  " ",
-]
+  </WeatherDetail>
+   
+</AppProvider>
 `;
