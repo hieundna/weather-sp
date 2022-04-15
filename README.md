@@ -1,68 +1,47 @@
-Link deployed: https://weathersp.herokuapp.com/
+# Weather Web Application
+**Technical Stack:**
+1. Information:
+   - The Weather web app base on myENV app.
+   - This application shows weather and tide information of each days
 
-## Available Scripts
+2. Everything needs to build app:
+   - ReactJS version 17.0.2
+   -	Chart using Rechart Library
+   -	Style using SASS
+   -	Unit testing using Jest, Enzyme and react-testing-library
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/70335420/116372069-438dd100-a836-11eb-8e46-464bccd313b8.png)
 
-### `yarn start`
+*Picture 1: Desktop view*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/70335420/116372120-4f799300-a836-11eb-889d-bed7d009ebc2.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*Picture 2: mobile view*
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Data:
+   - Weather data is got from weather api: ‘Weather API - OpenWeatherMap’
+   - All chart data is static and was defined follow this structure:
 
-### `yarn build`
+![image](https://user-images.githubusercontent.com/70335420/116372172-5b655500-a836-11eb-9de2-8fbee90dd83c.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Picture 3: data structure*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Unit testing: using Jest, enzyme and react-testing-library
 
-### `yarn eject`
+![image](https://user-images.githubusercontent.com/70335420/116372643-d4fd4300-a836-11eb-9f92-b6bde86b06a9.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*Picture 4: testing result*
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Github repository: [S3_Weather_HieuNguyen](https://github.com/s3corp-github/S3_WeatherWeb_HieuNguyen)
+6. Deploy link: [Weather Forecast](https://weathersp.herokuapp.com/)
+7. How to run
+   - Requirement install environment
+     - NodeJS ver >= 12
+     - After clone project please run this cmd yarn or npm install
+   - Available scripts: 
+     In the project directory you can run:
+     - `yarn start` or `npm run start` to start the app on local server with url http://localhost:3000/
+     - `yarn test` or `npm run test` to launches the test runner in the interactive watch mode
+     - `yarn build` or `npm run build` to builds the app for production to the build folder
